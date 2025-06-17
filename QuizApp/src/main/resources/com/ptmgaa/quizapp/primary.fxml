@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="Main" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ptmgaa.quizapp.PrimaryController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="QuizApp" />
+      <Button layoutX="262.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleQuestionManagement" styleClass="Button" stylesheets="@styles.css" text="Quản lí câu hỏi" />
+      <Button layoutX="262.0" layoutY="225.0" mnemonicParsing="false" styleClass="Button" stylesheets="@styles.css" text="Thi" />
+      <Button mnemonicParsing="false" onAction="#handlePractice" styleClass="Button" stylesheets="@styles.css" text="Luyện tập" />
+      <Button layoutX="262.0" layoutY="250.0" mnemonicParsing="false" styleClass="Button" stylesheets="@styles.css" text="Đăng ký" />
+      <Button mnemonicParsing="false" styleClass="Button" stylesheets="@styles.css" text="Thoát" />
+   </children>
+</VBox>
